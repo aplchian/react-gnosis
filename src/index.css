@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Average');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 32px;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 28px;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 18px;
+}
+
+ul li a {
+  color: black;
+  text-decoration: underline;
+  font-family: 'Average', serif;
+  font-size: 50px;
+}
+
+ul li a:hover {
+  text-decoration: line-through;
+}
+
+form {
+  display: inline-block;
+  margin: 0 auto;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%,0);
+}
+
+form input {
+  height: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+button {
+  border: 2px solid black;
+  width: 200px;
+  height: 45px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 400;
+  background-color: white;
+  margin-top: 20px;
+  display: block;
+}
+button:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
